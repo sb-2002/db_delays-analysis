@@ -17,23 +17,26 @@ based on my personal experience I think the real on-time rate is closer to
 
 ---
 
-## Q2: Which train type should I choose if I want the lowest delay risk?
+## Q2: How do delays vary by station category (major hubs vs. smaller stations)?
 
-**Why it matters:** As a student, I care about a mix of price, speed, and
-reliability. If one train type is much more punctual, that changes how
-I book.
+**Why it matters:** As a traveler, knowing whether smaller stations are
+more reliable (or more chaotic) than major hubs helps me plan trips —
+especially when I have a choice of where to change trains.
 
-**What I expect to find:** I think ICE might be more punctual because
-passengers pay more and expect premium service. But I also realize ICEs
-travel longer distances, so they have more chances to accumulate delay —
-so I'm not fully sure.
+**What I expect to find:** I expect major hubs (category 1-2) to have
+WORSE delays because they handle the most traffic and are bottlenecks
+in the network. Smaller stations (category 4-5) might be more punctual
+since they have fewer trains crossing each other.
 
-**Chart type:** Horizontal bar chart — one bar per train type showing
-average delay in minutes.
+**Note:** I originally planned to compare train types (ICE vs RE etc.)
+but the dataset doesn't include train type as a column. After data
+exploration, I adapted this question to use station category, which
+the data does support.
 
-**Sub-question:** Does the ranking change during rush hour vs. off-peak?
+**Chart type:** Bar chart with one bar per category (1-5).
 
----
+**Sub-question:** Does the pattern hold across all states, or is it
+different in densely populated regions like NRW vs rural Bayern?
 
 ## Q3: How does delay risk change by time of day?
 
