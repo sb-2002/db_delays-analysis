@@ -11,8 +11,8 @@ __pycache__/
 .env
 
 # Data (too big for Git usually — we'll link in README instead)
-data/*.csv
-data/*.parquet
+data/**/*.csv
+data/**/*.parquet
 
 # OS
 .DS_Store
