@@ -54,6 +54,7 @@ delay on the y-axis.
 
 ## Q4: How does delay risk change by day of the week?
 
+
 **Why it matters:** So I can plan my week accordingly and know which
 days are safest for important trips.
 
@@ -63,20 +64,29 @@ afternoon is the worst (everyone travels home), and Sunday is the best.
 
 **Chart type:** Bar chart with one bar per weekday.
 
+**Note:** The dataset covers only one week (July 7–14, 2024), so each
+weekday is represented by a single day. Results show patterns within
+this sample week and should not be interpreted as long-term trends.
+
+
 ---
 
-## Q5: Are there seasonal patterns in delays?
+## Q5: Do longer routes accumulate more delay than shorter ones?
 
-**Why it matters:** So I can plan vacations or day trips around the
-times of year when the network is most reliable.
+**Why it matters:** As a traveler, I want to know if I should expect
+more delays on long-distance journeys vs. short trips. This affects
+how much buffer time to add for connections.
 
-**What I expect to find:** Winter should have more delays because of
-fog, snow, and ice on tracks. Summer might have a smaller second peak
-due to heat-related issues or construction work.
+**What I expect to find:** Trains making more stops likely accumulate
+more delay along the way. I expect a clear positive relationship between
+route length (number of stops) and average delay.
 
-**Chart type:** Bar chart by month, or line chart across the year.
+**Note:** I originally planned to analyze seasonal patterns, but the
+dataset only covers one week, so seasonal analysis isn't possible.
+I replaced this question with one the data supports.
 
-**Sub-question:** Is winter genuinely worse, or just a stereotype?
+**Chart type:** Scatter plot with route length on x-axis and average
+delay on y-axis. Or a binned bar chart (short/medium/long routes).
 
 ---
 
