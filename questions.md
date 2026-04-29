@@ -52,21 +52,22 @@ delay on the y-axis.
 
 ---
 
-## Q4: How does delay risk change by day of the week?
+## Q4: Does delay risk worsen across consecutive weekdays?
 
+**Why it matters:** As a traveler, I want to know if delays accumulate
+across the week (e.g., Monday clean, Wednesday chaotic) or stay roughly
+constant. This affects which day to schedule important trips.
 
-**Why it matters:** So I can plan my week accordingly and know which
-days are safest for important trips.
+**What I expect to find:** I expect Tuesday and Wednesday to be slightly
+worse than Monday because the network has less recovery time between
+weekdays. The difference shouldn't be huge.
 
-**What I expect to find:** I expect weekdays to be more delayed than
-weekends because of higher commuter traffic. My guess is Friday
-afternoon is the worst (everyone travels home), and Sunday is the best.
+**Note:** I originally planned a full Mon-Sun weekday analysis, but
+during exploration I discovered the dataset only contains 3 full days
+(Mon-Wed) plus a partial Thursday morning. I adapted the question to
+fit the data: comparing the 3 full weekdays available.
 
-**Chart type:** Bar chart with one bar per weekday.
-
-**Note:** The dataset covers only one week (July 7–14, 2024), so each
-weekday is represented by a single day. Results show patterns within
-this sample week and should not be interpreted as long-term trends.
+**Chart type:** Bar chart with one bar per date (or weekday).
 
 
 ---
