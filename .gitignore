@@ -14,6 +14,10 @@ __pycache__/
 data/**/*.csv
 data/**/*.parquet
 
+# Dashboard inputs are small SQL result snapshots — keep them tracked
+!data/dashboard_inputs/
+!data/dashboard_inputs/*.csv
+
 # OS
 .DS_Store
 Thumbs.db

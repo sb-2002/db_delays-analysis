@@ -1,0 +1,6 @@
+category,total_arrivals,avg_delay_min,median_delay_min,on_time_pct,severely_delayed_pct
+1,12164,2.31,0.0,88.51,2.36
+2,23400,2.18,0.0,89.0,2.79
+3,105147,1.74,0.0,92.07,1.6
+4,212501,1.13,0.0,94.74,1.0
+5,176788,1.4,0.0,93.07,1.39

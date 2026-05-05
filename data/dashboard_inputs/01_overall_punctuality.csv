@@ -1,0 +1,2 @@
+total_arrivals,on_time_count,delayed_count,on_time_percentage,avg_delay_minutes,median_delay_minutes,max_delay_minutes
+530000,494245,35755,93.25,1.41,0.0,159
