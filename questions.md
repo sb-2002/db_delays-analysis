@@ -94,7 +94,7 @@ delay on y-axis. Or a binned bar chart (short/medium/long routes).
 ## Q6: Which stations have the worst delays?
 
 **Why it matters:** So I can plan trips through specific hubs more
-carefully — for example, adding extra buffer time if I have to change
+carefully. For example, adding extra buffer time if I have to change
 trains at a station known for delays.
 
 **What I expect to find:** I expect large city hubs like Frankfurt Hbf,
