@@ -20,8 +20,8 @@ based on my personal experience I think the real on-time rate is closer to
 ## Q2: How do delays vary by station category (major hubs vs. smaller stations)?
 
 **Why it matters:** As a traveler, knowing whether smaller stations are
-more reliable (or more chaotic) than major hubs helps me plan trips —
-especially when I have a choice of where to change trains.
+more reliable (or more chaotic) than major hubs helps me plan trips.
+Especially when I have a choice of where to change trains.
 
 **What I expect to find:** I expect major hubs (category 1-2) to have
 WORSE delays because they handle the most traffic and are bottlenecks
